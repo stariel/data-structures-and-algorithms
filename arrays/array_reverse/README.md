@@ -5,5 +5,4 @@ Write a function that takes an array as an input and returns an array with the e
 Write a function that takes an array as an input and returns an array with the elements in reversed order.
 
 ## Solution
-![Whiteboarding Image](./assets/array_reverse.jpg)
-Format: ![image of whiteboarding to solve array_reverse challenge](url)
+![Whiteboarding Image](../assets/array_reverse.jpg)

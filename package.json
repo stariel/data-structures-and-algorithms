@@ -1,7 +1,7 @@
 {
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
-  "description": "Without using built-in array methods, reverse the elements in an array.",
+  "description": "Repo for Whiteboard Challenges",
   "main": "array_reverse.js",
   "scripts": {
     "lint": "eslint **/*.js",

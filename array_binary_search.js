@@ -12,22 +12,18 @@ function BinarySearch(array, key) {
       if (array[currentIndex] > key) {
         upperBound = currentIndex;
         currentIndex = Math.floor((upperBound - lowerBound)/2 + lowerBound);
-        if (currentIndex === upperBound) {
+      }
+      else if (array[currentIndex] < key) {
+        lowerBound = currentIndex;
+        currentIndex = Math.floor((upperBound - lowerBound)/2 + lowerBound);
+        if (currentIndex == lowerBound) {
           return -1;
         }
-        else if (array[currentIndex] < key) {
-          lowerBound = currentIndex;
-          currentIndex = Math.floor((upperBound - lowerBound)/2 + lowerBound);
-          if (currentIndex === lowerBound) {
-            return -1;
-          }
-        }
-        else if (array[currentIndex] == key) {
-          return currentIndex;
-        }
+      }
+      else if (array[currentIndex] == key) {
+        return currentIndex;
       }
     }
   }
 }
-
 module.exports = BinarySearch;

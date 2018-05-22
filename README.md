@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.com/stariel/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/stariel/data-structures-and-algorithms)
+
+**Data Structures and Algorithms**
+
 # Reverse an Array
 Without using built-in array methods, reverse the elements in an array.
 

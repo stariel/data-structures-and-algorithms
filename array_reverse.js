@@ -8,3 +8,5 @@ function reverseArray(arr) {
   }
   console.log(newArray);
 }
+
+reverseArray([1,2,3]);

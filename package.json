@@ -2,14 +2,10 @@
   "name": "data-structures-and-algorithms",
   "version": "1.0.0",
   "description": "Repo for Whiteboard Challenges",
-  "main": "array_reverse.js",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint **/*.js",
     "test": "jest --coverage --verbose"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stariel/data-structures-and-algorithms.git"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +13,5 @@
   "dependencies": {
     "eslint": "^4.19.1",
     "jest": "^22.4.4"
-  },
-  "homepage": "https://github.com/stariel/data-structures-and-algorithms#readme"
+  }
 }

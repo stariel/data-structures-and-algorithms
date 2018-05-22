@@ -19,3 +19,12 @@ Write a function that takes an array and a value as inputs and returns a new arr
 
 ## Solution
 ![Whiteboarding Image 02](assets/array_shift.jpg)
+
+# Binary Search
+BinarySearch takes a sorted array and a search key. It returns the index of the array's element that is equal to the search key. If the search key is not present, it returns -1.
+
+## Challenge
+Write a function that takes an array and a search key as inputs. Use binary search to find the index of the array's element that is equal to the search key. If it is not present, return -1.
+
+## Solution
+![Whiteboarding Image 03](assets/array_binary_search.jpg)

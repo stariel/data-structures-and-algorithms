@@ -23,7 +23,7 @@ function BinarySearch(array, key) {
           upperBound = currentIndex;
           currentIndex = Math.floor((upperBound - lowerBound)/2 + lowerBound);
         }
-        else if (array[currentIndex] < key) {
+        else {
           lowerBound = currentIndex;
           currentIndex = Math.floor((upperBound - lowerBound)/2 + lowerBound);
           if (currentIndex == lowerBound) {

@@ -37,3 +37,15 @@ it('BinarySearch() searches for the index of the element in the array that match
   expect(BinarySearch([1,3,4,5,10], 3)).toEqual(1);
                   
 });
+
+it('BinarySearch() searches for the index of the element in the array that matches the key and returns the index or -1 if a element matching the key is not present.', () => {
+
+  expect(BinarySearch([2,3,4,5,10], 1)).toEqual(-1);
+                
+});
+
+it('BinarySearch() searches for the index of the element in the array that matches the key and returns the index or -1 if a element matching the key is not present.', () => {
+
+  expect(BinarySearch([2,3,4,5,10,12,15], 12)).toEqual(5);
+                
+});

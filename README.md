@@ -2,7 +2,7 @@
 
 **Data Structures and Algorithms**
 
-# Reverse an Array
+# Reverse an Array 01
 Without using built-in array methods, reverse the elements in an array.
 
 ## Challenge
@@ -11,7 +11,7 @@ Write a function that takes an array as an input and returns an array with the e
 ## Solution
 ![Whiteboarding Image 01](assets/array_reverse.jpg)
 
-# Insert Shift Array
+# Insert Shift Array 02
 Without using built-in array methods, insert a given value at the center index of an array.
 
 ## Challenge
@@ -20,7 +20,7 @@ Write a function that takes an array and a value as inputs and returns a new arr
 ## Solution
 ![Whiteboarding Image 02](assets/array_shift.jpg)
 
-# Binary Search
+# Binary Search 03
 BinarySearch takes a sorted array and a search key. It returns the index of the array's element that is equal to the search key. If the search key is not present, it returns -1.
 
 ## Challenge
@@ -28,3 +28,13 @@ Write a function that takes an array and a search key as inputs. Use binary sear
 
 ## Solution
 ![Whiteboarding Image 03](assets/array_binary_search.jpg)
+
+# Binary Search 04
+LargestProduct takes a 2D array and returns the largest product of any 2 adjacent values.
+
+## Challenge
+Write a function that takes a 2D array as an input. Check each possible pair of adjacent values and return the largest product.
+
+
+## Solution
+![Whiteboarding Image 03](assets/array_adjacent_product.jpg)

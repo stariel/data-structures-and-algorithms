@@ -14,4 +14,4 @@ insertBefore(value, newVal) - write a function to find the first node with *valu
 insertAfter(value, newVal) - write a function to find the first node with *value* and insert a node with newVal direclty after it
 
 ## Solution
-![Whiteboarding Image 01](assets/ll-insertions.jpg)
+![Whiteboarding Image 01](../assets/ll-insertions.jpg)

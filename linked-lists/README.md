@@ -14,4 +14,13 @@ insertBefore(value, newVal) - write a function to find the first node with *valu
 insertAfter(value, newVal) - write a function to find the first node with *value* and insert a node with newVal direclty after it
 
 ## Solution
-![Whiteboarding Image 01](../assets/ll-insertions.jpg)
+![Whiteboarding Image 06](../assets/ll_insertions.jpg)
+
+# Linked List kth From End 07
+Write a method to return the value of the node in the kth position from the end.
+
+## Challenge
+Write a function which takes in a number, k. Find the end of the linked list, then return the kth value before the end.
+
+## Solution
+![Whiteboarding Image 07](../assets/ll_kth_from_end.jpg)

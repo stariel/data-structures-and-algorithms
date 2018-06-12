@@ -56,6 +56,28 @@ class LinkedList {
     this.head = current;
     
   }
+
+  remove(value) {
+    // this function has O(n)
+    let current = this.head;
+    if (current.value === value) {
+      this.head = current.next;
+    }
+    else {
+      while (current.next !== null) {
+        if (current.next.value === value) {
+          if (current.next.next) {
+            current.next = current.next.next;
+          }
+          else {current.next = null;}
+        }
+        else {
+          current = current.next;
+        }
+      }
+    }
+  }
+
 }
 
 module.exports = LinkedList;

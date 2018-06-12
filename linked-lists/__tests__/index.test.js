@@ -71,4 +71,46 @@ describe('Linked LinkedList Constructor', () => {
     expect(list.head.next.next.value).toEqual(4);
   });
 
+  it('remove() does not modify the list if no node has the given value', () => {
+    let list = new LinkedList;
+    list.append(4);
+    list.append(2);
+    list.append(1);
+    list.remove(5);
+    expect(list.head.value).toEqual(4);
+    expect(list.head.next.value).toEqual(2);
+    expect(list.head.next.next.value).toEqual(1);
+  });
+
+  it('remove() removes the given value in a list with many nodes', () => {
+    let list = new LinkedList;
+    list.append(4);
+    list.append(2);
+    list.append(1);
+    list.remove(2);
+    expect(list.head.value).toEqual(4);
+    expect(list.head.next.value).toEqual(1);
+  });
+
+  it('remove() can remove the given value if it is the last node in a list', () => {
+    let list = new LinkedList;
+    list.append(4);
+    list.append(2);
+    list.append(1);
+    list.remove(1);
+    expect(list.head.value).toEqual(4);
+    expect(list.head.next.value).toEqual(2);
+    expect(list.head.next.next).toBe(null);
+  });
+
+  it('remove() reassigns the head if the head value is removed', () => {
+    let list = new LinkedList;
+    list.append(4);
+    list.append(2);
+    list.append(1);
+    list.remove(4);
+    expect(list.head.value).toEqual(2);
+    expect(list.head.next.value).toEqual(1);
+  });
+
 });

@@ -29,7 +29,7 @@ Write a function which takes in a number, k. Find the end of the linked list, th
 ## Solution
 ![Whiteboarding Image 07](../assets/ll_kth_from_end.jpg)
 
-# Linked List kth From End 08
+# Linked List Merge 08
 Write a method to merge two linked lists into one, alternating nodes between input lists.
 
 ## Challenge
@@ -37,3 +37,12 @@ Write a function which takes in two linked lists and creates a new linked list. 
 
 ## Solution
 ![Whiteboarding Image 08](../assets/ll_merge.jpg)
+
+# Linked List Detect Loop 09
+Write a method to detect whether a linked list contains a circular reference.
+
+## Challenge
+Write a function which takes in a linked list and returns a Boolean - true if the list contains a circular reference and false if it does not.
+
+## Solution
+![Whiteboarding Image 09](../assets/ll_detect_loop.jpg)

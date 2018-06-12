@@ -4,6 +4,10 @@
 
 **Linked Lists**
 
+This code creates a class for Singly Linked Lists (SLL). This class creates a linked list data structure and creates some methods to use with SLL.
+
+The append(value) method adds a new node with *value* to the last position in the list
+
 # Linked List Insertions 06
 Write functions to insert new nodes at the end of a linked list or before or after a node with a given value.
 

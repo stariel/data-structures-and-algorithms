@@ -28,3 +28,12 @@ Write a function which takes in a number, k. Find the end of the linked list, th
 
 ## Solution
 ![Whiteboarding Image 07](../assets/ll_kth_from_end.jpg)
+
+# Linked List kth From End 08
+Write a method to merge two linked lists into one, alternating nodes between input lists.
+
+## Challenge
+Write a function which takes in two linked lists and creates a new linked list. The new list consists of the values from each of the input nodes, alternating between list 1 and list 2.
+
+## Solution
+![Whiteboarding Image 08](../assets/ll_merge.jpg)

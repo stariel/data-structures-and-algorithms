@@ -1,0 +1,13 @@
+{
+  "name": "linked-lists",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.com/stariel/data-structures-and-algorithms.svg?branch=master)](https://travis-ci.com/stariel/data-structures-and-algorithms)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint **/*.js",
+    "test": "jest --coverage --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

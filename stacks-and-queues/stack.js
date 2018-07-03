@@ -11,10 +11,12 @@ class Stack {
   }
   
   pop() {
+    //this function has O(1)
     return this.stack.pop();
   }
 
   serialize() {
+    //this function has O(n)
     let stackText = '[';
     for (let i = 0; i < this.stack.length; i++) {
       stackText += this.stack[i] + ', ';
@@ -24,4 +26,4 @@ class Stack {
   }
 }
 
-export default Stack;
+module.exports= Stack;

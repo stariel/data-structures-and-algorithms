@@ -28,3 +28,12 @@ Using two stacks and their push(val) and pop() methods, implement a queue with e
 
 ## Solution
 ![Whiteboarding Image 11](../assets/queue_with_stacks.jpg)
+
+## First-in, First out Animal Shelter 12
+Create an AnimalShelter class which holds cats and dogs, and operates as a FIFO animal shelter.
+
+## Challenge
+Create an AnimalShelter class which holds animals - either cat or dog objects. enqueue() adds an animal to the shelter. dequeue(pref) returns the longest-waiting preferred animal (cat or dog).
+
+## Solution
+![Whiteboarding Image 12](../assets/fifo_animal_shelter.jpg)

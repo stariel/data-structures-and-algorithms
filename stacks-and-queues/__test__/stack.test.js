@@ -41,10 +41,10 @@ describe('Stack', () => {
     expect(stack.pop()).toBe(undefined);
   });
 
-  xit('serialize() converts a stack to a formatted string', () => {
+  it('serialize() converts a stack to a formatted string', () => {
     let stack = new Stack;
     stack.push(4);
-    expect(stack.serialize()).toBe('[4,]');
+    expect(stack.serialize()).toBe('[4, ]');
   });
 
 });

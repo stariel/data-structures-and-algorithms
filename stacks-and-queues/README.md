@@ -15,3 +15,16 @@ This code creates two classes - one for Stacks and one for Queues. These classes
 
 - The enqueue(value) adds the *value* to the last position in the queue
 - The dequeue() method removes and returns the first item in the queue
+
+###Tests
+
+Tests can be run in node.js using npm test, or checked on Travis at the link at the top of this README.
+
+## Implement a Queue using two Stacks 11
+Implement a queue using two stacks.
+
+## Challenge
+Using two stacks and their push(val) and pop() methods, implement a queue with enqueue(val) and dequeue() methods.
+
+## Solution
+![Whiteboarding Image 11](../assets/queue_with_stacks.jpg)

@@ -2,8 +2,7 @@
 
 class Stack {
   constructor() {
-    this.stack = new Array;
-    this.stack.length = 0;
+    this.stack = [];
   }
 
   push(val) {

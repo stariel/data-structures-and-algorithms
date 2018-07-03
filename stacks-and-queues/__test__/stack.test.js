@@ -47,4 +47,11 @@ describe('Stack', () => {
     expect(stack.serialize()).toBe('[4, ]');
   });
 
+  it('serialize() converts a stack to a formatted string', () => {
+    let stack = new Stack;
+    stack.push(4);
+    stack.push('bob');
+    expect(stack.serialize()).toBe('[4, bob, ]');
+  });
+
 });

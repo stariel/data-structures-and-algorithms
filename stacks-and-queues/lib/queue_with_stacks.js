@@ -9,20 +9,15 @@ class Queue {
   }
 
   enqueue(val) {
-    if (this.outbox.length == 0) {
-      this.outbox.push(val);
-    }
-    else {
-      while (this.outbox.length > 0) {
-        this.inbox.push(this.outbox.pop());
-      }
-      this.outbox.push(val);
-    }
+    this.outbox.push(val);
   }
 
-  dequeue() {
-    return this.queue.shift();
-  }
+//   dequeue() {
+//     this.outbox.forEach (ele =>  {
+//       this.inbox.push(ele);
+//     });
+//     this.inbox.pop();
+//   }
 
 }
 

@@ -7,7 +7,9 @@ class Queue {
 
   enqueue(val) {
     //this function has O(1)
-    this.queue.push(val);
+    if (val) {
+      this.queue.push(val);
+    }
   }
 
   dequeue() {
@@ -15,15 +17,15 @@ class Queue {
     return this.queue.shift();
   }
 
-  serialize() {
-    //this function has O(n)
-    let queueText = '[';
-    for (let i = 0; i < this.queue.length; i++) {
-      queueText += this.queue[i] + ', ';
-    }
-    queueText += ']';
-    return queueText;
-  }
+//   serialize() {
+//     //this function has O(n)
+//     let queueText = '[';
+//     for (let i = 0; i < this.queue.length; i++) {
+//       queueText += this.queue[i] + ', ';
+//     }
+//     queueText += ']';
+//     return queueText;
+//   }
 }
 
-export default Queue;
+module.exports = Queue;

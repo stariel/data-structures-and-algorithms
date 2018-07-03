@@ -3,11 +3,14 @@
 class Stack {
   constructor() {
     this.stack = new Array;
+    this.stack.length = 0;
   }
 
   push(val) {
     // this function has an O(1)
-    this.stack.push(val);
+    if (val) {
+      this.stack.push(val);
+    }
   }
   
   pop() {
@@ -15,15 +18,15 @@ class Stack {
     return this.stack.pop();
   }
 
-  serialize() {
-    //this function has O(n)
-    let stackText = '[';
-    for (let i = 0; i < this.stack.length; i++) {
-      stackText += this.stack[i] + ', ';
-    }
-    stackText += ']';
-    return stackText;
-  }
+  // serialize() {
+  //   //this function has O(n)
+  //   let stackText = '[';
+  //   this.array.forEach(element => {
+  //     stackText += (element + ', ');
+  //   });
+  //   stackText += ']';
+  //   return stackText;
+  // }
 }
 
 module.exports= Stack;

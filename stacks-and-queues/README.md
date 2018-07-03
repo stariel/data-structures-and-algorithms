@@ -37,3 +37,12 @@ Create an AnimalShelter class which holds animals - either cat or dog objects. e
 
 ## Solution
 ![Whiteboarding Image 12](../assets/fifo_animal_shelter.jpg)
+
+## Multi-bracket Validation 13
+Write a function which takes in a string which may contain brackets [], {}, () and determines whether the brackets are balanced.
+
+## Challenge
+multiBracketValidation(input) is a function which takes in a string which may contain brackets [], {}, (). It determines whether the brackets are balanced and returns a boolean.
+
+## Solution
+![Whiteboarding Image 13](../assets/multi-bracket-validation.jpg)

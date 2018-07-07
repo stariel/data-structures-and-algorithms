@@ -15,6 +15,10 @@ module.exports = class BinarySearchTree {
       return;
     }
   }
+
+  find(val) {
+    return this.root ? this.root.find(val) : null;
+  }
 };
 
 class Node {
@@ -38,6 +42,18 @@ class Node {
       } else {
         this.right = new Node(val);
       }
+    }
+  }
+
+  find(val) {
+    if (val === this.val) {
+      return this;
+    }
+    else if (val < this.val) {
+      return this.left ? this.left.find(val) :null;
+    }
+    else {
+      return this.right ? this.right.find(val) : null;
     }
   }
 }

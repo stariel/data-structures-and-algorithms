@@ -6,13 +6,12 @@ module.exports = class BinarySearchTree {
   }
 
   insert(val) {
-
-    if (this.root) {
-      this.root.add(val);
-    }
-    else {
+    if (!this.root) {
       this.root = new Node(val);
       return;
+    }
+    else {
+      this.root.add(val);
     }
   }
 
@@ -57,4 +56,3 @@ class Node {
     }
   }
 }
-

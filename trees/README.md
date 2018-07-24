@@ -8,6 +8,8 @@ This code creates a class for Binary Trees. This class creates a binary tree dat
 
 The insert(value) method adds a new node with *value* to the correct position in the tree.
 
+The find(value) method finds a node with a specific value and returns it.
+
 # Linked List Insertions 1
 Write a function called FizzBuzzTree which takes a tree as an argument and performs the classic "FizzBuzz" function.
 

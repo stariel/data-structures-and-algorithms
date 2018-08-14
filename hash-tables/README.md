@@ -9,4 +9,4 @@ Return the first repeated word in a string.
 Write a function that takes a string and returns the first word to occur more than once.
 
 ## Solution
-![Whiteboarding Image 01](assets/repeated_word.jpg)
+![Whiteboarding Image 31](../assets/repeated_word.jpg)

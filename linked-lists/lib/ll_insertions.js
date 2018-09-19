@@ -37,15 +37,18 @@ class LinkedList {
     } else if (this.head.next !== null) {
       let current = this.head.next;
       let previous = this.head;
-      while (current.next !== null) {
+      while (current !== null) {
         if(current.value == val) {
           let saved = current;
           let newNode = new Node(newVal);
           previous.next = newNode;
           newNode.next = saved;
+          return;
         }
-        previous = current;
-        current = current.next;
+        else{
+          previous = current;
+          current = current.next;
+        }
       }
       throw console.error('This list does not contain the given value.');
     }
@@ -55,6 +58,22 @@ class LinkedList {
   insertAfter(val, newVal) {
     if (!this.head) {
       throw console.error('This list does not contain any values.');
+    }
+    else {
+      let current = this.head;
+      while (current !== null) {
+        if(current.value == val) {
+          let saved = current.next;
+          let newNode = new Node(newVal);
+          current.next = newNode;
+          newNode.next = saved;
+          return;
+        }
+        else{
+          current = current.next;
+        }
+      }
+      throw console.error('This list does not contain the given value.');
     }
   }
 

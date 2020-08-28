@@ -46,3 +46,16 @@ multiBracketValidation(input) is a function which takes in a string which may co
 
 ## Solution
 ![Whiteboarding Image 13](../assets/multi-bracket-validation.jpg)
+
+## Towers of Hanoi 14
+Write a function to solve the Towers of Hanoi puzzle for n disks.
+
+## Challenge
+- The Towers of Hanoi is a mathematical puzzle where you have 3 towers and N disks of different sizes.
+- The puzzle starts with the disks sorted (i.e. smaller disks sits on top of larger disks) on the left-most tower, and the objective of the puzzle is to move the disks to the right-most tower with the following restrictions:
+1. Only one disk can be moved at a given time.
+2. A disk is moved from the top of a tower to the top of another tower.
+3. A disk can’t be placed on top of a smaller disk.
+
+## Solution
+![Whiteboarding Image 14](../assets/towers-of-hanoi.jpg)

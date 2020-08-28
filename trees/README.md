@@ -27,3 +27,12 @@ Without utilizing any of the built-in methods available to your language, traver
 
 ## Solution
 ![Whiteboarding Image 17](../assets/breadthfirsttraversal.jpg)
+
+# Find Maximum Value 18
+Write a function called findMaximumValue which takes a tree as an argument and traverses the tree keeping track of the maximum value. After all nodes are visited, return the maximum value.
+
+## Challenge
+Without utilizing any of the built-in methods available to your language, return the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
+## Solution
+![Whiteboarding Image 18](../assets/findmaxvalue.jpg)
